@@ -1,0 +1,9 @@
+[site]
+domain = "image-annex.store"
+campaign_name = "image-annex"
+container_id = ""
+ga4_measurement_id = "G-JN7HZD80WG"
+
+[deployment]
+mode = "browser"
+headful = true

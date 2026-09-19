@@ -1,0 +1,12 @@
+{
+  "name": "image-annex.store",
+  "private": true,
+  "description": "image-annex.store landing page (Eleventy)",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

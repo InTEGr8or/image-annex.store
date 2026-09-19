@@ -1,0 +1,25 @@
+:root {
+  color-scheme: dark;
+  --bg: #0b0b0b;
+  --fg: #f2f2f2;
+  --muted: #a0a0a0;
+  --accent: #7dffb3;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--bg); color: var(--fg); font: 18px/1.5 system-ui, sans-serif; }
+.site-header, .site-footer, main { max-width: 42rem; margin: 0 auto; padding: 1.5rem; }
+.wordmark { color: var(--accent); text-decoration: none; font-weight: 700; letter-spacing: 0.04em; }
+h1 { font-size: 2.1rem; line-height: 1.2; }
+.muted { color: var(--muted); }
+.cta {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 1.1rem;
+  background: var(--accent);
+  color: #111;
+  font-weight: 700;
+  text-decoration: none;
+}
+.cta:hover { filter: brightness(1.08); }
+ul { padding-left: 1.2rem; }
+.site-footer { color: var(--muted); font-size: 0.9rem; }
