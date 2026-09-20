@@ -40,19 +40,21 @@ We charge only if you want **us** in the loop:
 
 ## Rarely opened, still searchable
 
-Drive, Box, and Dropbox are priced as **sync and collaboration**. A 10 TB closed-job pile is not that. Consumer 2 TB plans are ~$10/month (~$5/TB). They do not stay that cheap at archive scale, and they are not a catalog: you still search folders.
+Drive, Box, and Dropbox sell **package deals**: seats, sharing, PDF tools, admin. Storage is a side effect, and extra people barely add terabytes. A 10 TB closed-job pile is not that. They are not a catalog: you still search folders.
 
 Thumbnails stay local and fast. Originals you almost never open sit in **Glacier Deep Archive** (~**$1/TB/month**, hours to restore).
 
-| | ~2 TB | ~10 TB closed archive | Catalog / thumbs |
-|---|---|---|---|
-| **Google Drive / One** | ~$10/mo (2 TB consumer) | No cheap 10 TB SKU; Workspace / AI Pro 5 TB is ~$20/user, then quote | Folders + Photos. Not EXIF/hash search. |
-| **Dropbox** | Plus ~$10–12/mo (2 TB) | Business from ~$15/user (3-user min on some plans) | Sync/share. Not an archive index. |
-| **Box** | Personal is tiny | Business ~$15/user, 3-user min (~$45/mo “unlimited”) | Collab + file-size caps. Not a photo vault. |
-| **iCloud+** | 2 TB ~$10/mo | 6 TB ~$30, 12 TB ~$60 | Apple Photos. Locked to that ecosystem. |
-| **Image Annex (OSS)** | Software **$0** | Cold originals **~$10/mo** (10 × $1/TB). Optional setup / NUC. | Dump-in catalog. Thumbs stay searchable. You own the objects. |
+**Dropbox (list, US):** Plus ~$10/mo is **2 TB for one person**. Standard is **$15/mo, 3 TB for the team** (1 person or more) — adding the team product only adds **1 TB**. Advanced is **$24/user/mo for 15 TB, 3-person minimum** ($72/mo). Another Advanced seat adds **5 TB**, not 15.
 
-List prices, US, 2026 ballpark — not a quote. Drive/Box/Dropbox are the product you already know; Image Annex is software you run plus storage you rent at archive rates.
+| | What you actually buy | ~10 TB closed archive | Catalog |
+|---|---|---|---|
+| **Google Drive / One** | ~$10/mo for 2 TB consumer. Extra people / Workspace SKUs do not scale as cheap TB. | No cheap 10 TB SKU; AI Pro 5 TB ~$20/user, then quote | Folders + Photos |
+| **Dropbox** | Plus ~$10 → 2 TB (1 person). $15 → 3 TB team (+1 TB). $24/user × 3 min → 15 TB; extra user +5 TB | 10 TB is past Plus/Standard; Advanced is $72/mo for 15 TB at 3 seats | Sync, PDF, branding — not an archive index |
+| **Box** | Business ~$15/user, 3-user min (~$45/mo “unlimited”) | Seats, not TB. File-size caps. | Collab |
+| **iCloud+** | 2 TB ~$10; 6 TB ~$30; 12 TB ~$60 | 12 TB ~$60/mo | Apple Photos |
+| **Image Annex (OSS)** | Software **$0**. You rent archive storage. | Cold originals **~$10/mo** (10 × $1/TB). Optional setup / NUC. | Dump-in catalog. Thumbs stay searchable. You own the objects. |
+
+List prices, US, 2026 ballpark — not a quote. Those suites are sync products; Image Annex is software you run plus storage at archive rates.
 
 ## First step
 
