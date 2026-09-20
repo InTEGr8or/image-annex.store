@@ -23,3 +23,23 @@ h1 { font-size: 2.1rem; line-height: 1.2; }
 .cta:hover { filter: brightness(1.08); }
 ul { padding-left: 1.2rem; }
 .site-footer { color: var(--muted); font-size: 0.9rem; }
+.hero {
+  width: 100%;
+  max-height: 22rem;
+  object-fit: cover;
+  border: 1px solid #333;
+  margin: 1rem 0 1.5rem;
+}
+.shots {
+  display: grid;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.shots figure { margin: 0; }
+.shots img {
+  width: 100%;
+  border: 1px solid #333;
+  display: block;
+}
+.shots figcaption { color: var(--muted); font-size: 0.85rem; margin-top: 0.4rem; }
+.credit { font-size: 0.75rem; color: #777; }
