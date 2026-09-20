@@ -40,7 +40,7 @@ We charge only if you want **us** in the loop:
 
 ## Rarely opened, still searchable
 
-Drive, Box, and Dropbox sell **package deals**: seats, sharing, PDF tools, admin. Storage is a side effect, and extra people barely add terabytes. A 10 TB closed-job pile is not that. They are not a catalog: you still search folders.
+Drive, Box, Dropbox, and Lightroom sell **package deals**: seats, sharing, PDF tools, admin, or the editor itself. Storage is a side effect. A 10 TB closed-job pile is not that. They are not a long-term catalog you dump and forget.
 
 Thumbnails stay local and fast. Originals you almost never open sit in **Glacier Deep Archive** (~**$1/TB/month**, hours to restore).
 
@@ -50,6 +50,7 @@ Thumbnails stay local and fast. Originals you almost never open sit in **Glacier
 |---|---|---|---|
 | **Google Drive / One** | ~$10/mo for 2 TB consumer. Extra people / Workspace SKUs do not scale as cheap TB. | No cheap 10 TB SKU; AI Pro 5 TB ~$20/user, then quote | Folders + Photos |
 | **Dropbox** | Plus ~$10 → 2 TB (1 person). $15 → 3 TB team (+1 TB). $24/user × 3 min → 15 TB; extra user +5 TB | 10 TB is past Plus/Standard; Advanced is $72/mo for 15 TB at 3 seats | Sync, PDF, branding — not an archive index |
+| **Adobe Lightroom** | Lightroom or Photography plan includes **1 TB** cloud (~$12–20/mo with the apps). Photographers often keep only recent work in that 1 TB and rotate the rest to local disks. | Bigger bundles exist (**3 / 10 / 20 TB** on the Lightroom plan; some regions also sell 2 / 5 / 10 TB add-ons). That is still Creative Cloud storage priced with the editor, not ~$1/TB archive. Lightroom Classic catalogs can live on local drives; the cloud quota is what fills. | Working catalog + develop. Not cheap closed-job vault. |
 | **Box** | Business ~$15/user, 3-user min (~$45/mo “unlimited”) | Seats, not TB. File-size caps. | Collab |
 | **iCloud+** | 2 TB ~$10; 6 TB ~$30; 12 TB ~$60 | 12 TB ~$60/mo | Apple Photos |
 | **Image Annex (OSS)** | Software **$0**. You rent archive storage. | Cold originals **~$10/mo** (10 × $1/TB). Optional setup / NUC. | Dump-in catalog. Thumbs stay searchable. You own the objects. |
