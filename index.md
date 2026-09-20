@@ -1,7 +1,7 @@
 ---
 layout: layout.njk
 title: Image Annex — archive the whole catalog
-description: Permanent archiving, cataloging, and catalog search for photographers who shoot a lot.
+description: Open-source archive and catalog for photographers and creators. You own the files — including YouTube masters YouTube does not.
 gtm_id:
 ---
 
@@ -9,7 +9,7 @@ gtm_id:
 
 <img class="hero" src="/images/hero-camera.jpg" alt="A camera on a workbench — Unsplash stock, not a client shoot">
 
-If you shoot weddings, events, headshots, or commercial work, the volume is the job. Image Annex is a permanent archive and index so you can dump everything in, keep thumbnails searchable, and stop paying premium storage for files you rarely open.
+If you shoot weddings, events, headshots, or commercial work, the volume is the job. Same if you publish YouTube (or any platform): the site is distribution, not your master. Image Annex is a permanent archive and index so you dump cards, drives, and exports in, keep thumbnails searchable, and stop paying sync-suite prices for files you rarely open. You own the objects. YouTube does not.
 
 <div class="shots">
 <figure>
@@ -37,12 +37,13 @@ We charge only if you want **us** in the loop:
 - **Setup** — we stand up the annex, ingest, and catalog on a body of work.
 - **On-site box** — a dedicated NUC (or similar) in the studio that hosts the image browser and archiver.
 - **Service** — optional help: ingest days, restores, training. Still your files, your account.
+- **Encryption** — optional client-side encryption before objects leave the box. Keys in **1Password** (or another plugin), or **AWS KMS** if you want the key ceremony hosted. Platforms never see the key.
 
 ## Rarely opened, still searchable
 
 Drive, Box, Dropbox, and Lightroom sell **package deals**: seats, sharing, PDF tools, admin, or the editor itself. Storage is a side effect. Volumes keep growing; those SKUs do not get cheaper per terabyte as the pile grows. They are not a long-term catalog you dump and forget.
 
-Thumbnails stay local and fast. Originals you almost never open sit in **Glacier Deep Archive** (~**$1/TB/month**, hours to restore).
+Thumbnails stay local and fast. Originals you almost never open sit in **Glacier Deep Archive** (~**$1/TB/month**, hours to restore). That is cheaper **at 1 TB too**: about **$1/mo** for a terabyte of closed work, vs Lightroom’s 1 TB bundled in a **$12–20/mo** editor plan, or Google One / Dropbox **~$10/mo for 2 TB** of sync. You can keep Lightroom. You do not have to buy their cloud as the vault.
 
 **Keep Lightroom. Don't use it as the archive.** The Lightroom or Photography plan is the editor at ~$12–20/mo with **1 TB** of cloud — enough for *current* work. Photographers already rotate older jobs off that quota onto disks. Adobe will sell more cloud (**3 / 10 / 20 TB** bundles; add-ons **from $11.99/mo per TB**, call to buy). That is still Creative Cloud, not archive: **10 TB ~$120/mo, 20 TB ~$240/mo** at that rate. Image Annex is for the closed jobs so Lightroom stays the cheap editor.
 
@@ -55,7 +56,7 @@ Thumbnails stay local and fast. Originals you almost never open sit in **Glacier
 | **Adobe Lightroom** | **Editor** ~$12–20/mo with **1 TB** (Photography plan adds Photoshop). Use that for active develops. | **Archive in Lightroom cloud:** +~$12/TB/mo. 10 TB ~$120/mo, **20 TB ~$240/mo**. Classic on disk is unlimited locally; the cloud quota is what you pay to grow. | Working catalog + develop. Closed jobs do not belong here. |
 | **Box** | Business ~$15/user, 3-user min (~$45/mo “unlimited”) | Seats, not TB. File-size caps. | Collab |
 | **iCloud+** | 2 TB ~$10; 6 TB ~$30; 12 TB ~$60 | 12 TB ~$60/mo | Apple Photos |
-| **Image Annex (OSS)** | Software **$0**. You rent archive storage. | Cold originals **~$10/mo** (10 × $1/TB). Optional setup / NUC. | Dump-in catalog. Thumbs stay searchable. You own the objects. |
+| **Image Annex (OSS)** | Software **$0**. Keep Lightroom. Rent archive storage for closed jobs. | **1 TB ~$1/mo, 10 TB ~$10/mo, 20 TB ~$20/mo** cold originals. Optional setup / NUC. | Dump-in catalog. Thumbs stay searchable. You own the objects. |
 
 List prices, US, 2026 ballpark — not a quote. Those suites are sync products; Image Annex is software you run plus storage at archive rates.
 
