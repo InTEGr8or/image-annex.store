@@ -26,19 +26,33 @@ If you shoot weddings, events, headshots, or commercial work, the volume is the 
 
 - **Ingest without sorting.** Dump cards, drives, and old backups. Cataloging and dedup happen after ingest.
 - **Find by what you remember.** Date, camera, location, keywords — not a folder archaeology project.
-- **Cheap long-term keep.** Active storage for what you still deliver from; deep archive for the rest. You own the files. No lock-in.
+- **Cheap long-term keep.** Active storage for what you still deliver from; deep archive for the rest. You own the files.
+
+## Open source. You don't pay us for the software.
+
+Image Annex is [open source](https://github.com/InTEGr8or/image-annex). Run it on your machine. You pay **your** cloud bill for the originals (typically AWS S3 Glacier Deep Archive), not a license.
+
+We charge only if you want **us** in the loop:
+
+- **Setup** — we stand up the annex, ingest, and catalog on a body of work.
+- **On-site box** — a dedicated NUC (or similar) in the studio that hosts the image browser and archiver.
+- **Service** — optional help: ingest days, restores, training. Still your files, your account.
 
 ## Rarely opened, still searchable
 
-Originals you almost never open go to **S3 Glacier Deep Archive**. Thumbnails stay fast (local / hot) so the catalog still works. Storage-only, us-east-1 list-price ballpark:
+Drive, Box, and Dropbox are priced as **sync and collaboration**. A 10 TB closed-job pile is not that. Consumer 2 TB plans are ~$10/month (~$5/TB). They do not stay that cheap at archive scale, and they are not a catalog: you still search folders.
 
-| What | Where | About |
-|---|---|---|
-| Thumbnails (search/preview) | Local disk or S3 Standard | ~50 KB each. 100k files ≈ 5 GB. |
-| Originals you still deliver from | S3 Standard-IA | ~$12.50 / TB / month, instant get |
-| Originals you almost never open | Glacier Deep Archive | **~$1 / TB / month**; restore in hours |
+Thumbnails stay local and fast. Originals you almost never open sit in **Glacier Deep Archive** (~**$1/TB/month**, hours to restore).
 
-A 10 TB closed-job archive is on the order of **$10/month** for the cold originals, not $230/month of “hot” object storage. Retrieval is slow by design. You own the files; no lock-in.
+| | ~2 TB | ~10 TB closed archive | Catalog / thumbs |
+|---|---|---|---|
+| **Google Drive / One** | ~$10/mo (2 TB consumer) | No cheap 10 TB SKU; Workspace / AI Pro 5 TB is ~$20/user, then quote | Folders + Photos. Not EXIF/hash search. |
+| **Dropbox** | Plus ~$10–12/mo (2 TB) | Business from ~$15/user (3-user min on some plans) | Sync/share. Not an archive index. |
+| **Box** | Personal is tiny | Business ~$15/user, 3-user min (~$45/mo “unlimited”) | Collab + file-size caps. Not a photo vault. |
+| **iCloud+** | 2 TB ~$10/mo | 6 TB ~$30, 12 TB ~$60 | Apple Photos. Locked to that ecosystem. |
+| **Image Annex (OSS)** | Software **$0** | Cold originals **~$10/mo** (10 × $1/TB). Optional setup / NUC. | Dump-in catalog. Thumbs stay searchable. You own the objects. |
+
+List prices, US, 2026 ballpark — not a quote. Drive/Box/Dropbox are the product you already know; Image Annex is software you run plus storage you rent at archive rates.
 
 ## First step
 
@@ -52,7 +66,7 @@ Never seen Image Annex? Sign up for a free demo. We will catalog a body of work 
 </form>
 
 <p class="muted">Fullerton-area photographers first. Hourly digest to mark@bizkite.net.</p>
-<p class="credit">Hero and catalog images: Unsplash License stock for demo. Not a real client archive. Prices are AWS us-east-1 storage-only estimates, not a quote.</p>
+<p class="credit">Hero and catalog images: Unsplash License stock for demo. Not a real client archive. Competitor and AWS figures are public US list-price ballparks (2026), not a quote or a contract.</p>
 
 <script>
 (function () {
