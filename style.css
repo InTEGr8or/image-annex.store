@@ -43,3 +43,43 @@ ul { padding-left: 1.2rem; }
 }
 .shots figcaption { color: var(--muted); font-size: 0.85rem; margin-top: 0.4rem; }
 .credit { font-size: 0.75rem; color: #777; }
+.demo-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.6rem;
+  margin: 1rem 0;
+}
+.demo-form input[type="email"] {
+  width: min(22rem, 100%);
+  padding: 0.6rem 0.8rem;
+  background: #111;
+  color: var(--fg);
+  border: 1px solid #333;
+  font: inherit;
+}
+.demo-form .cta {
+  margin-top: 0;
+  border: 0;
+  cursor: pointer;
+  font: inherit;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+  margin: 1rem 0;
+}
+th, td {
+  text-align: left;
+  padding: 0.45rem 0.5rem;
+  border-bottom: 1px solid #333;
+  vertical-align: top;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+}
