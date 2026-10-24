@@ -8,7 +8,10 @@
 * { box-sizing: border-box; }
 html, body { margin: 0; background: var(--bg); color: var(--fg); font: 18px/1.5 system-ui, sans-serif; }
 .site-header, .site-footer, main { max-width: 42rem; margin: 0 auto; padding: 1.5rem; }
+.site-header { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
 .wordmark { color: var(--accent); text-decoration: none; font-weight: 700; letter-spacing: 0.04em; }
+.login { color: var(--fg); font-weight: 700; text-decoration: none; border: 1px solid #333; padding: 0.35rem 0.7rem; }
+.login:hover { border-color: var(--accent); color: var(--accent); }
 h1 { font-size: 2.1rem; line-height: 1.2; }
 .muted { color: var(--muted); }
 .cta {
@@ -64,6 +67,7 @@ ul { padding-left: 1.2rem; }
   cursor: pointer;
   font: inherit;
 }
+.table-scroll { overflow-x: auto; margin: 1rem 0; }
 table {
   width: 100%;
   border-collapse: collapse;

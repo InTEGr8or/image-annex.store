@@ -58,14 +58,21 @@ Still cheaper than Lightroom’s 1 TB bundled in a **$12–20/mo** editor plan, 
 
 **Dropbox (list, US):** Plus ~$10/mo is **2 TB for one person**. Standard is **$15/mo, 3 TB for the team** (1 person or more) — adding the team product only adds **1 TB**. Advanced is **$24/user/mo for 15 TB, 3-person minimum** ($72/mo). Another Advanced seat adds **5 TB**, not 15.
 
-| | What you actually buy | **1 TB** | **10 TB** closed archive | Catalog |
-|---|---|---|---|
-| **Google Drive / One** | ~$10/mo for 2 TB consumer. Extra people / Workspace SKUs do not scale as cheap TB. | Still buy the 2 TB SKU (~$10) | No cheap 10 TB SKU; AI Pro 5 TB ~$20/user, then quote | Folders + Photos |
-| **Dropbox** | Plus ~$10 → 2 TB (1 person). $15 → 3 TB team (+1 TB). $24/user × 3 min → 15 TB; extra user +5 TB | Plus ~$10 for 2 TB | Advanced $72/mo for 15 TB at 3 seats | Sync, PDF, branding — not an archive index |
-| **Adobe Lightroom** | **Editor** ~$12–20/mo with **1 TB**. Keep that for active develops. Do not grow the cloud. | **~$12–20/mo** (the whole plan) for 1 TB of Creative Cloud | Archive add-on **~$12/TB/mo** → 10 TB ~$120, 20 TB ~$240 | Working catalog + develop. Closed jobs / YouTube masters do not belong here. |
-| **Box** | Business ~$15/user, 3-user min (~$45/mo “unlimited”) | Seats, not TB | Seats, not TB. File-size caps. | Collab |
-| **iCloud+** | 2 TB ~$10; 6 TB ~$30; 12 TB ~$60 | 2 TB ~$10 | 12 TB ~$60/mo | Apple Photos |
-| **Image Annex (OSS)** | Software **$0**. Keep Lightroom. Rent archive storage. YouTube is distribution, not the master. | **~$1/mo** cold originals | **~$10/mo** (20 TB ~$20). Optional setup / NUC / encryption. | Dump-in catalog. Thumbs stay searchable. You own the objects. |
+<div class="table-scroll">
+<table>
+<thead>
+<tr><th>Product</th><th>What you actually buy</th><th>1 TB</th><th>10 TB closed archive</th><th>Catalog</th></tr>
+</thead>
+<tbody>
+<tr><td>Google Drive / One</td><td>~$10/mo for 2 TB consumer. Extra people / Workspace SKUs do not scale as cheap TB.</td><td>Still buy the 2 TB SKU (~$10)</td><td>No cheap 10 TB SKU; AI Pro 5 TB ~$20/user, then quote</td><td>Folders + Photos</td></tr>
+<tr><td>Dropbox</td><td>Plus ~$10 → 2 TB (1 person). $15 → 3 TB team (+1 TB). $24/user × 3 min → 15 TB; extra user +5 TB</td><td>Plus ~$10 for 2 TB</td><td>Advanced $72/mo for 15 TB at 3 seats</td><td>Sync, PDF, branding — not an archive index</td></tr>
+<tr><td>Adobe Lightroom</td><td>Editor ~$12–20/mo with 1 TB. Keep that for active develops. Do not grow the cloud.</td><td>~$12–20/mo (the whole plan) for 1 TB of Creative Cloud</td><td>Archive add-on ~$12/TB/mo → 10 TB ~$120, 20 TB ~$240</td><td>Working catalog + develop. Closed jobs / YouTube masters do not belong here.</td></tr>
+<tr><td>Box</td><td>Business ~$15/user, 3-user min (~$45/mo “unlimited”)</td><td>Seats, not TB</td><td>Seats, not TB. File-size caps.</td><td>Collab</td></tr>
+<tr><td>iCloud+</td><td>2 TB ~$10; 6 TB ~$30; 12 TB ~$60</td><td>2 TB ~$10</td><td>12 TB ~$60/mo</td><td>Apple Photos</td></tr>
+<tr><td>Image Annex (OSS)</td><td>Software $0. Keep Lightroom. Rent archive storage. YouTube is distribution, not the master.</td><td>~$1/mo cold originals</td><td>~$10/mo (20 TB ~$20). Optional setup / NUC / encryption.</td><td>Dump-in catalog. Thumbs stay searchable. You own the objects.</td></tr>
+</tbody>
+</table>
+</div>
 
 List prices, US, 2026 ballpark — not a quote. Those suites are sync products; Image Annex is software you run plus storage at archive rates.
 
