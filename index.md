@@ -1,15 +1,22 @@
 ---
 layout: layout.njk
 title: Image Annex — archive the whole catalog
-description: Open-source archive and catalog for photographers and creators. You own the files — including YouTube masters YouTube does not.
+description: The app is free. Your pictures stay in a cloud bucket you own, at archive prices. We can bring a computer and set it up, or run the cloud account. The bucket stays yours.
 gtm_id:
 ---
 
-# Your photos are a catalog, not a pile of drives
+# The app is free. The bucket is yours. Closed jobs cost about $1 a terabyte a month.
+
+<div class="vp">
+  <p>Image Annex runs on your laptop, or on dedicated machines you keep on the local network. One hub is enough. Several hubs can share the archive. The catalog is stored in a cloud bucket in your name. You pay that storage bill, not a software license. Install it and use it without paying us. If you want us to bring a machine and set the hub up, we do that. Or we run the cloud account and add a maintenance markup. Either way you keep the bucket. Stopping our fee does not take the pictures.</p>
+  <p>Service prices are not on this page yet. The storage figures below are the cloud vendors’ public list prices.</p>
+</div>
+
+<p><a class="cta" href="https://pypi.org/project/image-annex/">Install it yourself</a></p>
 
 <img class="hero" src="/images/hero-camera.jpg" alt="A camera on a workbench — Unsplash stock, not a client shoot">
 
-If you shoot weddings, events, headshots, or commercial work, the volume is the job. Same if you publish YouTube (or any platform): the site is distribution, not your master. Image Annex is a permanent archive and index so you dump cards, drives, and exports in, keep thumbnails searchable, and stop paying sync-suite prices for files you rarely open. You own the objects. YouTube does not.
+If you shoot weddings, events, headshots, or commercial work, the volume is the job. Same if you publish on YouTube: the site is distribution, not your master. The app, on a laptop or on a local hub, takes the files, keeps a gallery, and copies originals into storage you rarely have to open.
 
 <div class="shots">
 <figure>
@@ -22,28 +29,42 @@ If you shoot weddings, events, headshots, or commercial work, the volume is the 
 </figure>
 </div>
 
-## What it does
+## How a picture is stored
 
-- **Ingest without sorting.** Dump cards, drives, and old backups. Cataloging and dedup happen after ingest.
-- **Find by what you remember.** Date, camera, location, keywords — not a folder archaeology project.
-- **Cheap long-term keep.** Active storage for what you still deliver from; deep archive for the rest. You own the files.
+<figure class="diagram">
+  <img src="/images/how-a-file-moves.svg" alt="Five steps: you shoot, the app runs on your laptop or on a local hub, one or several, it copies the files into your cloud bucket, the card can then be erased, and you search on the web or your phone.">
+</figure>
 
-## Open source. You don't pay us for the software.
+<p>Run it on the laptop you edit on, or on dedicated machines on your network. A studio can keep one hub, or several, so the archive sits on those machines while the laptop stays light. The card or the old drive is emptied only after a local copy and the bucket both have the file. Some folders stay on the laptop or the hub so they open immediately. Others can leave that machine once the bucket is the copy that counts. A phone folder that is still syncing is copied and never deleted. The same photo from two cards is stored once. The folder it came from stays on the file, so you can still search for the job after the folders are gone.</p>
 
-Image Annex is [open source](https://github.com/InTEGr8or/image-annex). Run it on your machine. You pay **your** storage bill, not a license. **Nothing locks you into Amazon S3.** git-annex special remotes can be S3, Backblaze B2, Wasabi, Cloudflare R2, IDrive e2, another disk, or a mix: hot recent work on one remote, closed jobs on another. That is why it can be the cheapest for *every* access pattern — you pick the strategy, you are not buying a Drive/Box/Lightroom package.
+<p>The gallery on the machine running the app is newest-first thumbnails. It reads captions, words in the picture, faces, and transcripts of audio and video. A phone web page shows that catalog too. Log in is the button at the top of this page. An Android app for that search is in progress. It is not in the stores yet.</p>
 
-We charge only if you want **us** in the loop:
+## What you pay
 
-- **Setup** — we stand up the annex, ingest, and catalog on a body of work.
-- **On-site box** — a dedicated NUC (or similar) in the studio that hosts the image browser and archiver.
-- **Service** — optional help: ingest days, restores, training. Still your files, your account.
-- **Encryption** — optional client-side encryption before objects leave the box. Keys in **1Password** (or another plugin), or a hosted KMS (AWS or otherwise) if you want the key ceremony hosted. Platforms never see the key.
+<figure class="diagram">
+  <img src="/images/what-you-pay.svg" alt="Three parts: the app is free and runs on a laptop or on local dedicated machines, one hub or several. The cloud bucket is in your name. Help is optional: we bring a hub or set up machines you already have, or we run the cloud account. The bucket stays yours. Service prices are not listed yet.">
+</figure>
+
+<p>The software is <a href="https://github.com/InTEGr8or/image-annex">open source</a>. The install page is <a href="https://pypi.org/project/image-annex/">image-annex on PyPI</a>:</p>
+
+<pre><code>pip install image-annex</code></pre>
+
+<p>Nothing locks the bucket to Amazon S3. Your computer can copy to S3 Glacier, Backblaze B2, Wasabi, Cloudflare R2, IDrive e2, another disk, or a mix: recent work on one, closed jobs on another.</p>
+
+<p>Two ways to hire us, both optional. Neither one is required to use the app:</p>
+
+<ul>
+  <li><strong>We come to you.</strong> We bring a dedicated machine, leave it as a hub, and set the archive up on a body of work. We can also set up hubs you already have. One machine or several.</li>
+  <li><strong>We run the cloud account.</strong> You still own the bucket. We charge a maintenance markup on top of the vendor’s bill.</li>
+</ul>
+
+<p>Encryption before objects leave the computer is optional. Keys can live in 1Password, or in a hosted KMS if you want that ceremony. The storage platform does not see the key.</p>
 
 ## Rarely opened, still searchable
 
 Drive, Box, Dropbox, and Lightroom sell **package deals**: seats, sharing, PDF tools, admin, or the editor itself. Storage is a side effect. Volumes keep growing; those SKUs do not get cheaper per terabyte as the pile grows. They are not a long-term catalog you dump and forget.
 
-Thumbnails stay local and fast. Originals go to **whatever remote fits the strategy**:
+Thumbnails stay on the laptop or the hub and stay fast. Originals go to **whatever remote fits the strategy**:
 
 | Strategy | Example remote (2026 list, storage-only) | ~1 TB / mo | ~10 TB / mo |
 |---|---|---|---|
@@ -69,7 +90,7 @@ Still cheaper than Lightroom’s 1 TB bundled in a **$12–20/mo** editor plan, 
 <tr><td>Adobe Lightroom</td><td>Editor ~$12–20/mo with 1 TB. Keep that for active develops. Do not grow the cloud.</td><td>~$12–20/mo (the whole plan) for 1 TB of Creative Cloud</td><td>Archive add-on ~$12/TB/mo → 10 TB ~$120, 20 TB ~$240</td><td>Working catalog + develop. Closed jobs / YouTube masters do not belong here.</td></tr>
 <tr><td>Box</td><td>Business ~$15/user, 3-user min (~$45/mo “unlimited”)</td><td>Seats, not TB</td><td>Seats, not TB. File-size caps.</td><td>Collab</td></tr>
 <tr><td>iCloud+</td><td>2 TB ~$10; 6 TB ~$30; 12 TB ~$60</td><td>2 TB ~$10</td><td>12 TB ~$60/mo</td><td>Apple Photos</td></tr>
-<tr><td>Image Annex (OSS)</td><td>Software $0. Keep Lightroom. Rent archive storage. YouTube is distribution, not the master.</td><td>~$1/mo cold originals</td><td>~$10/mo (20 TB ~$20). Optional setup / NUC / encryption.</td><td>Dump-in catalog. Thumbs stay searchable. You own the objects.</td></tr>
+<tr><td>Image Annex (OSS)</td><td>Software $0. Your bucket. Optional: we bring the computer, or we run the cloud account. Service prices are not listed yet.</td><td>~$1/mo cold originals</td><td>~$10/mo (20 TB ~$20), paid to the storage vendor.</td><td>Gallery on the web and on your phone. You own the objects.</td></tr>
 </tbody>
 </table>
 </div>

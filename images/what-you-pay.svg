@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 544" role="img" aria-labelledby="payTitle payDesc">
+  <title id="payTitle">What you pay for</title>
+  <desc id="payDesc">The app is free. It runs on a laptop or on dedicated machines on the local network, one hub or several. The cloud bucket is in your name and you pay the storage vendor. Help is optional: we can bring a machine and set up a hub, or we run the cloud account while you keep the bucket. Service prices are not listed yet.</desc>
+  <style>
+    .box { fill: #141414; stroke: #333; stroke-width: 1.5; }
+    .box-strong { fill: #141414; stroke: #7dffb3; stroke-width: 1.5; }
+    .kicker { fill: #7dffb3; font: 700 13px system-ui, sans-serif; letter-spacing: 0.08em; }
+    .title { fill: #f2f2f2; font: 600 22px system-ui, sans-serif; }
+    .sub { fill: #a0a0a0; font: 16px system-ui, sans-serif; }
+  </style>
+  <rect class="box-strong" x="36" y="16" width="568" height="156" rx="12"/>
+  <text class="kicker" x="60" y="48">THE APP</text>
+  <text class="title" x="60" y="80">Free. Use it without paying us.</text>
+  <text class="sub" x="60" y="110">On your laptop, or on dedicated machines.</text>
+  <text class="sub" x="60" y="134">One local hub, or several. It still runs if you stop hiring us.</text>
+
+  <rect class="box-strong" x="36" y="188" width="568" height="148" rx="12"/>
+  <text class="kicker" x="60" y="220">THE BUCKET</text>
+  <text class="title" x="60" y="252">Yours. You pay the storage vendor.</text>
+  <text class="sub" x="60" y="282">About $1 per terabyte a month for files you rarely open.</text>
+  <text class="sub" x="60" y="306">Hotter storage costs more. The account stays in your name.</text>
+
+  <rect class="box" x="36" y="352" width="568" height="168" rx="12"/>
+  <text class="kicker" x="60" y="384">HELP, IF YOU WANT IT</text>
+  <text class="title" x="60" y="416">We set it up. The bucket stays yours.</text>
+  <text class="sub" x="60" y="446">We can bring a hub, or set up machines you already have.</text>
+  <text class="sub" x="60" y="470">Or we run the cloud account. You still own the bucket.</text>
+  <text class="sub" x="60" y="494">Those service prices are not listed on this page yet.</text>
+</svg>

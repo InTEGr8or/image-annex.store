@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 748" role="img" aria-labelledby="flowTitle flowDesc">
+  <title id="flowTitle">How a picture moves</title>
+  <desc id="flowDesc">You shoot. The app runs on your laptop, or on dedicated machines on your local network, one hub or several. That machine copies the originals to a cloud bucket in your name. The card can be erased only after a local copy and the bucket copy both exist. You search on the web or your phone.</desc>
+  <style>
+    .box { fill: #141414; stroke: #7dffb3; stroke-width: 1.5; }
+    .title { fill: #f2f2f2; font: 600 22px system-ui, sans-serif; }
+    .sub { fill: #a0a0a0; font: 16px system-ui, sans-serif; }
+    .num { fill: #0b0b0b; font: 700 18px system-ui, sans-serif; }
+    .badge { fill: #7dffb3; }
+    .arrow { stroke: #7dffb3; stroke-width: 2; fill: none; }
+  </style>
+  <rect class="box" x="36" y="16" width="568" height="104" rx="12"/>
+  <circle class="badge" cx="78" cy="68" r="18"/>
+  <text class="num" x="78" y="74" text-anchor="middle">1</text>
+  <text class="title" x="112" y="58">You shoot</text>
+  <text class="sub" x="112" y="86">The card, the phone, or an old drive still has the files.</text>
+
+  <path class="arrow" d="M320 120 V148"/>
+  <path class="arrow" d="M312 140 L320 152 L328 140"/>
+
+  <rect class="box" x="36" y="156" width="568" height="128" rx="12"/>
+  <circle class="badge" cx="78" cy="220" r="18"/>
+  <text class="num" x="78" y="226" text-anchor="middle">2</text>
+  <text class="title" x="112" y="200">Your laptop, or a local hub</text>
+  <text class="sub" x="112" y="228">A dedicated machine on your network.</text>
+  <text class="sub" x="112" y="252">One hub, or several.</text>
+
+  <path class="arrow" d="M320 284 V312"/>
+  <path class="arrow" d="M312 304 L320 316 L328 304"/>
+
+  <rect class="box" x="36" y="320" width="568" height="104" rx="12"/>
+  <circle class="badge" cx="78" cy="372" r="18"/>
+  <text class="num" x="78" y="378" text-anchor="middle">3</text>
+  <text class="title" x="112" y="362">It copies them into your bucket</text>
+  <text class="sub" x="112" y="390">The bucket is in your cloud account, not ours.</text>
+
+  <path class="arrow" d="M320 424 V452"/>
+  <path class="arrow" d="M312 444 L320 456 L328 444"/>
+
+  <rect class="box" x="36" y="460" width="568" height="104" rx="12"/>
+  <circle class="badge" cx="78" cy="512" r="18"/>
+  <text class="num" x="78" y="518" text-anchor="middle">4</text>
+  <text class="title" x="112" y="502">Then the card can be erased</text>
+  <text class="sub" x="112" y="530">Only after a local copy and the bucket both exist.</text>
+
+  <path class="arrow" d="M320 564 V592"/>
+  <path class="arrow" d="M312 584 L320 596 L328 584"/>
+
+  <rect class="box" x="36" y="600" width="568" height="120" rx="12"/>
+  <circle class="badge" cx="78" cy="660" r="18"/>
+  <text class="num" x="78" y="666" text-anchor="middle">5</text>
+  <text class="title" x="112" y="642">Search on the web or your phone</text>
+  <text class="sub" x="112" y="670">Newest first. Caption, words in the picture, a face,</text>
+  <text class="sub" x="112" y="694">or what was said. The old folder name stays on the file.</text>
+</svg>

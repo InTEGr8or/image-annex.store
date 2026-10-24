@@ -1,0 +1,11 @@
+%% Source for images/what-you-pay.svg
+%% Facts this diagram is allowed to say:
+%% - The app is free to install from PyPI. Using it does not require paying us.
+%% - The bucket is in the customer's name. They pay the storage vendor.
+%% - Cold storage ballpark used on the page: about $1/TB/month for rarely opened files.
+%% - Optional help: an on-site visit that leaves a studio computer, or we operate the cloud account.
+%% - In both help cases the customer retains ownership of the bucket.
+%% - Service prices are not quoted here.
+flowchart TD
+  app["The app: free"] --> bucket["The bucket: yours"]
+  bucket --> help["Help, if you want it: visit, or we run the cloud account"]

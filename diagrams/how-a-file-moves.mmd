@@ -1,0 +1,13 @@
+%% Source for images/how-a-file-moves.svg
+%% Facts this diagram is allowed to say:
+%% 1. Files start on a card, a phone, or an old drive.
+%% 2. The app runs on the user's laptop, or on dedicated machines on the local network. One hub or several.
+%% 3. That computer copies originals to a bucket in the customer's cloud account.
+%% 4. The source may be erased only after the local copy and the bucket copy both exist.
+%% 5. Search is on the web or the phone: newest first; caption, OCR, face, transcript; original folder path kept.
+%% A phone folder that is still syncing is copied and never deleted. That rule is in the page text, not this picture.
+flowchart TD
+  shoot["1. You shoot"] --> local["2. Your laptop, or a local hub. One or several."]
+  local --> bucket["3. It copies them into your cloud bucket"]
+  bucket --> erase["4. Then the card can be erased"]
+  erase --> find["5. You search on the web or your phone"]
